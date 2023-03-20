@@ -23,7 +23,7 @@ Steps to deploy a Red Hat Scholar workshop:
 
 #### 6) Modify ‘site.yml’, it is necessary to change site.url and site.start_page
 
-```
+```yaml
 runtime:
   cache_dir: ./.cache/antora
 

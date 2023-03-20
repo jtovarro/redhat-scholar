@@ -23,11 +23,12 @@ Steps to deploy a Red Hat Scholar page:
 
 6) Modify ‘site.yml’, it is necessary to change site.url and site.start_page
 
-```jsx
+```
 runtime:
   cache_dir: ./.cache/antora
 
 site:
+  ##Change the title
   title: Manual for GitOps workshop
   ##Change url from repo
   url: https://github.com/jtovarro/gitops-workshop-manual

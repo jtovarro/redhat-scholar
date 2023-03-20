@@ -3,9 +3,9 @@ Steps to deploy a Red Hat Scholar page:
 
 1) Fork [https://github.com/redhat-scholars/courseware-template](https://github.com/redhat-scholars/courseware-template) repo and unclick: ‘Copy the master Branch only’. This is because this repo uses a branch named gh-pages to deploy Git Hub pages trough Actions.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbd261db-6fc9-4110-bf53-e68661a9c468/Untitled.png)
+![Untitled (1)](https://user-images.githubusercontent.com/95486210/226349082-30cb26d1-4d2e-4392-9040-820197aad154.png)
 
-2) Click ‘Use this template’  then ‘Create new repository’.
+2) Click ‘Use this template’ then ‘Create new repository’.
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dfbad35b-50c4-4b9e-bd8d-9d39f9aea89e/Untitled.png)
 

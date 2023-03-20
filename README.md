@@ -31,7 +31,7 @@ site:
   title: Manual for GitOps workshop
   ##Change url from repo
   url: https://github.com/jtovarro/gitops-workshop-manual
-  ##The start page should be the name of your repo
+  ##The start_page should be the name of your repo
   start_page: gitops-workshop-manual::index.adoc
 
 content:

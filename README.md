@@ -7,19 +7,19 @@ Steps to deploy a Red Hat Scholar page:
 
 2) Click ‘Use this template’ then ‘Create new repository’.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dfbad35b-50c4-4b9e-bd8d-9d39f9aea89e/Untitled.png)
+![Untitled (2)](https://user-images.githubusercontent.com/95486210/226349353-b5047c7d-7b4e-4989-8953-caf389505aef.png)
 
 3) Click ‘Include all branches’, make it public, give it a name and hit create.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76f6a39c-5360-48bc-8fe6-0417b4eccd4a/Untitled.png)
+![Untitled (3)](https://user-images.githubusercontent.com/95486210/226349223-8f1b96c8-3ea3-4c79-89b7-d2a667c6709e.png)
 
 4) Once the new repo is created go to ‘Settings’ → ‘Pages’ and verify you have the build and deployment configuration.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f20d8c40-3bc6-4143-b897-bad371830b1c/Untitled.png)
+![Untitled (4)](https://user-images.githubusercontent.com/95486210/226349400-6b22e9d3-68dc-425e-a5f9-5b7c56246f4a.png)
 
 5) In ‘Settings’ → ‘Actions’ → ‘General’ → ‘Workflow permissions’ click ‘Read and write permissions’ and hit ‘Save’, this allow GitHub Actions to redeploy correctly the page when a change in the code is done.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e11ffea5-a3e6-47a1-87e8-cd70debeb909/Untitled.png)
+![Untitled (5)](https://user-images.githubusercontent.com/95486210/226349440-7f860717-06bd-40d6-8b06-5ff35aa52ba1.png)
 
 6) Modify ‘site.yml’, it is necessary to change site.url and site.start_page
 
@@ -63,17 +63,15 @@ output:
 
 7) In ‘Actions’ it is possible to see all the workflows that deployed GitHub pages, and in the ‘Environments’ section you can find the url to the GitHub page deployed.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ce88e9f-6d45-4e6f-baae-749f804326cd/Untitled.png)
-
 ![Untitled](https://user-images.githubusercontent.com/95486210/226348602-4c078e47-0933-4244-bbf7-d87b5d6b2eba.png)
 
+![Untitled (6)](https://user-images.githubusercontent.com/95486210/226349568-57501c42-d894-4b80-b7c9-5d97a06a7afd.png)
 
 8) To add/remove pages go to ‘documentation/modules/ROOT/pages’ and ‘documentation/modules/ROOT/nav.adoc’ to edit the sections. 
 
 Reference: [https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure](https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure)
 
 Guide repos: 
+  [https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies](https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies)
 
-[https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies](https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies)
-
-[https://github.com/acidonper/redhat-workshop-cicd-gitops](https://github.com/acidonper/redhat-workshop-cicd-gitops)
+  [https://github.com/acidonper/redhat-workshop-cicd-gitops](https://github.com/acidonper/redhat-workshop-cicd-gitops)

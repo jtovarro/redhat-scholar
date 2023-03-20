@@ -65,7 +65,8 @@ output:
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ce88e9f-6d45-4e6f-baae-749f804326cd/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8934d42f-3d07-4410-a747-e3e01003ca28/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/95486210/226348602-4c078e47-0933-4244-bbf7-d87b5d6b2eba.png)
+
 
 8) To add/remove pages go to ‘documentation/modules/ROOT/pages’ and ‘documentation/modules/ROOT/nav.adoc’ to edit the sections. 
 

@@ -69,9 +69,9 @@ output:
 
 8) To add/remove pages go to ‘documentation/modules/ROOT/pages’ and ‘documentation/modules/ROOT/nav.adoc’ to edit the sections. 
 
-Reference: [https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure](https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure)
+## Related Links
+- Reference: [https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure](https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure)
 
-Guide repos: 
-  [https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies](https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies)
-
-  [https://github.com/acidonper/redhat-workshop-cicd-gitops](https://github.com/acidonper/redhat-workshop-cicd-gitops)
+- Guide repos: 
+  - [https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies](https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies)
+  - [https://github.com/acidonper/redhat-workshop-cicd-gitops](https://github.com/acidonper/redhat-workshop-cicd-gitops)

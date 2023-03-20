@@ -5,23 +5,23 @@ Steps to deploy a Red Hat Scholar workshop:
 
 ![Untitled (1)](https://user-images.githubusercontent.com/95486210/226349082-30cb26d1-4d2e-4392-9040-820197aad154.png)
 
-## 2) Click ‘Use this template’ then ‘Create new repository’.
+#### 2) Click ‘Use this template’ then ‘Create new repository’.
 
 ![Untitled (2)](https://user-images.githubusercontent.com/95486210/226349353-b5047c7d-7b4e-4989-8953-caf389505aef.png)
 
-3) Click ‘Include all branches’, make it public, give it a name and hit create.
+#### 3) Click ‘Include all branches’, make it public, give it a name and hit create.
 
 ![Untitled (3)](https://user-images.githubusercontent.com/95486210/226349223-8f1b96c8-3ea3-4c79-89b7-d2a667c6709e.png)
 
-4) Once the new repo is created go to ‘Settings’ → ‘Pages’ and verify you have the build and deployment configuration.
+#### 4) Once the new repo is created go to ‘Settings’ → ‘Pages’ and verify you have the build and deployment configuration.
 
 ![Untitled (4)](https://user-images.githubusercontent.com/95486210/226349400-6b22e9d3-68dc-425e-a5f9-5b7c56246f4a.png)
 
-5) In ‘Settings’ → ‘Actions’ → ‘General’ → ‘Workflow permissions’ click ‘Read and write permissions’ and hit ‘Save’, this allow GitHub Actions to redeploy correctly the page when a change in the code is done.
+#### 5) In ‘Settings’ → ‘Actions’ → ‘General’ → ‘Workflow permissions’ click ‘Read and write permissions’ and hit ‘Save’, this allow GitHub Actions to redeploy correctly the page when a change in the code is done.
 
 ![Untitled (5)](https://user-images.githubusercontent.com/95486210/226349440-7f860717-06bd-40d6-8b06-5ff35aa52ba1.png)
 
-6) Modify ‘site.yml’, it is necessary to change site.url and site.start_page
+#### 6) Modify ‘site.yml’, it is necessary to change site.url and site.start_page
 
 ```
 runtime:
@@ -62,13 +62,13 @@ output:
   dir: ./gh-pages
 ```
 
-7) In ‘Actions’ it is possible to see all the workflows that deployed GitHub pages, and in the ‘Environments’ section you can find the url to the GitHub page deployed.
+#### 7) In ‘Actions’ it is possible to see all the workflows that deployed GitHub pages, and in the ‘Environments’ section you can find the url to the GitHub page deployed.
 
 ![Untitled (7)](https://user-images.githubusercontent.com/95486210/226348602-4c078e47-0933-4244-bbf7-d87b5d6b2eba.png)
 
 ![Untitled (6)](https://user-images.githubusercontent.com/95486210/226349568-57501c42-d894-4b80-b7c9-5d97a06a7afd.png)
 
-8) To add/remove pages go to ‘documentation/modules/ROOT/pages’ and ‘documentation/modules/ROOT/nav.adoc’ to edit the sections. 
+#### 8) To add/remove pages go to ‘documentation/modules/ROOT/pages’ and ‘documentation/modules/ROOT/nav.adoc’ to edit the sections. 
 
 ## Related Links
 - Reference: [https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure](https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure)

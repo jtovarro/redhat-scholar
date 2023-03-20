@@ -71,7 +71,7 @@ output:
 
 Reference: [https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure](https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure)
 
-Asier repos: 
+Guide repos: 
 
 [https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies](https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies)
 

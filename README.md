@@ -63,7 +63,7 @@ output:
 
 7) In ‘Actions’ it is possible to see all the workflows that deployed GitHub pages, and in the ‘Environments’ section you can find the url to the GitHub page deployed.
 
-![Untitled](https://user-images.githubusercontent.com/95486210/226348602-4c078e47-0933-4244-bbf7-d87b5d6b2eba.png)
+![Untitled (7)](https://user-images.githubusercontent.com/95486210/226348602-4c078e47-0933-4244-bbf7-d87b5d6b2eba.png)
 
 ![Untitled (6)](https://user-images.githubusercontent.com/95486210/226349568-57501c42-d894-4b80-b7c9-5d97a06a7afd.png)
 

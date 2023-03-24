@@ -78,7 +78,7 @@ $ podman run -p 7681:7681 -it quay.io/redhat-scholars/ttyd-openshift:latest
 
 $ docker run -p 7681:7681 -it quay.io/redhat-scholars/ttyd-openshift:latest
 ```
-  - Run 'localhost:7681' in your browser to access the terminal.
+  - Run `localhost:7681` in your browser to access the terminal.
 
 ## Related Links
 - Reference: [https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure](https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure)

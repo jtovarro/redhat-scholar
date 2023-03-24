@@ -71,13 +71,14 @@ output:
 #### 8) To add/remove pages go to ‘documentation/modules/ROOT/pages’ and ‘documentation/modules/ROOT/nav.adoc’ to edit the sections. 
 
 ## Remote Workstation
-A possible solution to avoid installing cli in our workstation is to create a remote workstation with oc,jq, and more cli already installed:
+A possible solution to avoid installing cli in our workstation is to create a remote terminal with oc,jq, and more cli already installed:
   - Using Podman or Docker:
 ```
 $ podman run -p 7681:7681 -it quay.io/redhat-scholars/ttyd-openshift:latest
 
 $ docker run -p 7681:7681 -it quay.io/redhat-scholars/ttyd-openshift:latest
 ```
+  - Run 'localhost:7681' in your browser to access the terminal.
 
 ## Related Links
 - Reference: [https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure](https://redhat-scholars.github.io/build-course/rhs-build-course/overview.html#file-structure)

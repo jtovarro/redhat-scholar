@@ -1,4 +1,4 @@
-# Red Hat Scholar
+# Red Hat Scholars
 Steps to deploy a Red Hat Scholar workshop:
 
 #### 1) Fork [https://github.com/redhat-scholars/courseware-template](https://github.com/redhat-scholars/courseware-template) repo and unclick: ‘Copy the master Branch only’. This is because this template uses a branch named gh-pages to deploy Git Hub pages trough Actions.

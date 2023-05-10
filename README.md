@@ -86,3 +86,7 @@ $ docker run -p 7681:7681 -it quay.io/redhat-scholars/ttyd-openshift:latest
 - Guide repos: 
   - [https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies](https://github.com/rhte2023-argo-rollouts/redhat-workshop-deployment-strategies)
   - [https://github.com/acidonper/redhat-workshop-cicd-gitops](https://github.com/acidonper/redhat-workshop-cicd-gitops)
+
+## Author
+
+Juan Carlos Tovar @RedHat
